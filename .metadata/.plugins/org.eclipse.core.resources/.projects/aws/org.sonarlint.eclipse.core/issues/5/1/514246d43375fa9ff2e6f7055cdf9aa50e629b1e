@@ -1,0 +1,10 @@
+
+†
+java:S6244"SConsider using the Consumer Builder method instead of creating this nested builder.(ë¹ý,8ÿ»¹ÐÐ0HË’RMINORZ
+CODE_SMELL
+k
+java:S6242"8Set the credentials provider explicitly on this builder.(“Šù18Ù¬‘ÐÐ0HÌ’RMAJORZ
+CODE_SMELL
+]
+java:S6241"*Set the region explicitly on this builder.(“Šù18Ù¬‘ÐÐ0HÍ’RMAJORZ
+CODE_SMELL

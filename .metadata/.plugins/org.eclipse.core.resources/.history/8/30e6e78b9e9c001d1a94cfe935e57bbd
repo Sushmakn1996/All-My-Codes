@@ -1,0 +1,14 @@
+package com.te.manytomany.service;
+
+import java.util.List;
+
+import com.te.manytomany.dto.EmployeeRegisterDto;
+import com.te.manytomany.entity.Employee;
+
+public interface EmployeeService {
+	
+	EmployeeRegisterDto register(EmployeeRegisterDto dto);
+	
+	List<EmployeeRegisterDto> get();
+
+}

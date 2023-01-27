@@ -1,0 +1,11 @@
+package com.te.java8.stream;
+
+import java.util.stream.Stream;
+
+public class StreamObjectCreation {
+
+	// Empty Stream
+	Stream<String> stream = Stream.empty();
+	
+
+}

@@ -1,0 +1,13 @@
+package com.te.newtest.controller;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class EmployeeController {
+	
+	public em ResponseEntity<T> name() {
+		
+	}
+
+}

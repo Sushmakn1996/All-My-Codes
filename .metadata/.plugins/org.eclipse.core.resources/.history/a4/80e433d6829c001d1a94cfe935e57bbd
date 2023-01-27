@@ -1,0 +1,32 @@
+package com.te.manytomany.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.te.manytomany.dto.EmployeeRegisterDto;
+import com.te.manytomany.entity.Employee;
+import com.te.manytomany.entity.EmployeeTechnicalSkills;
+import com.te.manytomany.repo.EmployeeRepo;
+
+public class EmployeeServiceImpl implements EmployeeService{
+	
+	@Autowired
+	private EmployeeRepo employeeRepo;
+
+	@Override
+	public EmployeeRegisterDto register(EmployeeRegisterDto dto) {
+			Employee employee=new Employee();
+			BeanUtils.copyProperties(dto, employee);
+			List<EmployeeTechnicalSkills> tech=new ArrayList<>();
+			for (EmployeeTechnicalSkills skills : employee.getEmployeeTechnicalSkills()) {
+				tech.add(skills);
+			}
+			employeeRepo.save(employee);
+			BeanUtils.copyProperties(employee, dto);
+			return dto;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.te.aws.s3.config;
+
+public class StorageConfig {
+
+}

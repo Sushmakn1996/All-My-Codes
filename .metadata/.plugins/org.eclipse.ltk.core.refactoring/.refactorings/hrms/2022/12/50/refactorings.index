@@ -1,0 +1,8 @@
+1670216849171	Rename type 'CandidateRequest'
+1670216860489	Rename type 'CandidateResponse'
+1670223637395	Move compilation unit
+1670310167132	Rename type 'HolidayDetails'
+1670324055573	Delete element
+1670406892699	Delete element
+1670503392155	Encapsulate field 'msg'
+1670560988471	Encapsulate field 'message'

@@ -1,0 +1,27 @@
+package com.te.manytomany.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.te.manytomany.dto.EmployeeRegisterDto;
+import com.te.manytomany.dto.EmployeeRegisterResponseDto;
+import com.te.manytomany.service.EmployeeService;
+
+@RestController
+public class EmployeeController {
+
+	@Autowired
+	private EmployeeService employeeService;
+
+	@PostMapping
+	public ResponseEntity<EmployeeRegisterResponseDto> register(@ResponseBody EmployeeRegisterDto dto) {
+		return new ResponseEntity<EmployeeRegisterResponseDto>(
+				new EmployeeRegisterResponseDto(false, "Registered Successfully", employeeService.register(dto)),
+				HttpStatus.ACCEPTED);
+	}
+
+}

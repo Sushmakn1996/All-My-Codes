@@ -1,0 +1,19 @@
+package com.te.manytomany.service;
+
+import java.util.List;
+
+import com.te.manytomany.dto.EmployeeDeleteDto;
+import com.te.manytomany.dto.EmployeeRegisterDto;
+import com.te.manytomany.dto.EmployeeUpdateDto;
+
+public interface EmployeeService {
+
+	EmployeeRegisterDto register(EmployeeRegisterDto dto);
+
+	EmployeeUpdateDto update(EmployeeUpdateDto dto);
+
+	List<EmployeeRegisterDto> get();
+
+	EmployeeDeleteDto delete(int empId);
+
+}

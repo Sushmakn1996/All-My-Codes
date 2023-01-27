@@ -1,0 +1,18 @@
+package com.te.manytomany.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class EmployeeDeleteDto {
+	
+	public EmployeeDeleteDto() {
+		// TODO Auto-generated constructor stub
+	}
+
+	private int empId;
+
+}

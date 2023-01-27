@@ -1,0 +1,15 @@
+package com.te.java8.stream;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class StreamObjectCreation {
+
+	// Empty Stream
+	Stream<String> stream = Stream.empty();
+	
+	//From Collection
+	List<Integer> list=Arrays.asList(2,3);
+
+}

@@ -1,0 +1,15 @@
+package com.te.springboot.abstraction;
+
+public class MainClass implements Car,Bmw {
+	public static void main(String[] args) {
+		Car.S;
+	}
+
+	@Override
+	public Car m1() {
+		// TODO Auto-generated method stub
+		return Car.super.m1();
+	}
+
+	
+}

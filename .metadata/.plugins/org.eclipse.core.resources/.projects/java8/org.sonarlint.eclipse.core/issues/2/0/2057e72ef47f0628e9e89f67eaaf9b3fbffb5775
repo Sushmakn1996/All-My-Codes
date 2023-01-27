@@ -1,0 +1,8 @@
+
+o	java:S125-"<This block of commented-out lines of code should be removed.(ËêÕò8ĞåÕïİ0H¯¬RMAJORZ
+CODE_SMELL
+t	java:S125("<This block of commented-out lines of code should be removed.(ÙéŒ­ıÿÿÿÿ8ĞåÕïİ0H²¬RMAJORZ
+CODE_SMELL
+ 
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(œû¿Ø8ĞåÕïİ0Hµ¬RMINORZ
+CODE_SMELL

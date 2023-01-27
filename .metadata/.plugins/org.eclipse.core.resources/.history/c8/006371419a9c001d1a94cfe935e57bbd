@@ -1,0 +1,49 @@
+package com.te.manytomany.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.te.manytomany.dto.EmployeeRegisterDto;
+import com.te.manytomany.dto.EmployeeTechnicalSkillsDto;
+import com.te.manytomany.entity.Employee;
+import com.te.manytomany.entity.EmployeeTechnicalSkills;
+import com.te.manytomany.repo.EmployeeRepo;
+
+@Service
+public class EmployeeServiceImpl implements EmployeeService{
+	
+	@Autowired
+	private EmployeeRepo employeeRepo;
+
+	@Override
+	public EmployeeRegisterDto register(EmployeeRegisterDto dto) {
+			Employee employee=new Employee();
+			BeanUtils.copyProperties(dto, employee);
+			System.err.println(employee);
+			
+			List<EmployeeTechnicalSkillsDto> employeeTechnicalSkillsDtos = dto.getEmployeeTechnicalSkillsDtos();
+//			for (EmployeeTechnicalSkillsDto skills : dto.getEmployeeTechnicalSkillsDtos()) {
+//				
+//				BeanUtils.copyProperties(skills, employeeTechnicalSkillsDtos);
+//				list2.add(skills);
+//			}
+			
+			List<EmployeeTechnicalSkills> list=new ArrayList<>();
+          employeeTechnicalSkillsDtos.forEach(i->{
+        	  EmployeeTechnicalSkills employeeTechnicalSkills=new EmployeeTechnicalSkills();
+        	  BeanUtils.copyProperties(i, employeeTechnicalSkills);
+        	  list.add(employeeTechnicalSkills);
+               employee.setEmployeeTechnicalSkills(list);  
+          });			
+			
+//			employee.setEmployeeTechnicalSkills(tech);
+			employeeRepo.save(employee);
+			BeanUtils.copyProperties(employee, dto);
+			return dto;
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.te.manytomany.dto;
+
+import java.util.List;
+
+import com.te.manytomany.entity.Employee;
+import com.te.manytomany.entity.EmployeeTechnicalSkills;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class EmployeeRegisterDto {
+	
+	private int empid;
+	private String empname;
+	private int age;
+	private double salary;
+	
+	List<EmployeeTechnicalSkills> employeeTechnicalSkills;
+
+}

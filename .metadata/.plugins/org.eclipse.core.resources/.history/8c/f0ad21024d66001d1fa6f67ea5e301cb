@@ -1,0 +1,5 @@
+package com.te.mock.controller;
+
+public class MovieRestController {
+
+}

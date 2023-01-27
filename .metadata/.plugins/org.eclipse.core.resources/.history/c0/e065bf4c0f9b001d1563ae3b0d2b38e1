@@ -1,0 +1,11 @@
+package com.te.java8.map;
+
+public class MapVsFlatMap {
+	
+	public static void main(String[] args) {
+		
+	}
+	
+	
+
+}

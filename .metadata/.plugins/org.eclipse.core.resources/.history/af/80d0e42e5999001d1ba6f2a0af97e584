@@ -1,0 +1,5 @@
+package com.te.newtest.dao;
+
+public class EmployeeResponseDto {
+
+}

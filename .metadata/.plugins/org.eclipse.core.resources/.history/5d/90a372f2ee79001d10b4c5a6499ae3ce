@@ -1,0 +1,5 @@
+package com.te.aws.s3.service;
+
+public class StorageService {
+
+}

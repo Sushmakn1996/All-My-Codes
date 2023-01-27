@@ -1,0 +1,5 @@
+package com.te.manytomany.entity;
+
+public class EmployeeSecondary {
+
+}

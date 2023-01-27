@@ -1,0 +1,11 @@
+
+‹
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤αϋÿÿÿÿHφ RMINORZ
+CODE_SMELL
+x	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(γψHψ RMINORZ
+CODE_SMELL
+ι
+java:S1598"³This file "EmployeeTest_2.java" should be located in "com\te\javaeightfeatures\StreamApiMethods" directory, not in "F:\SpringBootProject\java8Me\src\main\java\com\te\java8\query".(ιξίζωÿÿÿÿHω RCRITICALZ
+CODE_SMELL
+‹	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ιξίζωÿÿÿÿHϊ RMINORZ
+CODE_SMELL

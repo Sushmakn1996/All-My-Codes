@@ -1,0 +1,19 @@
+package com.te.springboot.abstraction;
+
+public class MainClass implements Car,Bmw {
+
+	
+
+	
+
+	
+
+	
+
+	
+	
+
+	
+
+	
+}

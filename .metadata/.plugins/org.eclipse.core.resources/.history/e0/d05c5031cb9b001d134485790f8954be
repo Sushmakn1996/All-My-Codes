@@ -1,0 +1,14 @@
+package com.te.java8.datetimeapi;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.temporal.TemporalAdjusters;
+
+public class DateTimeApi {
+	
+	LocalDate today = LocalDate.now();
+	LocalDate nextWednesday = 
+	today.with(TemporalAdjusters.next(DayOfWeek.WEDNESDAY));
+	System.out.println("Next Wednesday on : " + nextWednesday);
+
+}

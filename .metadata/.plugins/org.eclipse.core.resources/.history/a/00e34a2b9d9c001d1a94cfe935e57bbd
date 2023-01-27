@@ -1,0 +1,9 @@
+package com.te.manytomany.service;
+
+import com.te.manytomany.dto.EmployeeRegisterDto;
+
+public interface EmployeeService {
+	
+	EmployeeRegisterDto register(EmployeeRegisterDto dto);
+
+}

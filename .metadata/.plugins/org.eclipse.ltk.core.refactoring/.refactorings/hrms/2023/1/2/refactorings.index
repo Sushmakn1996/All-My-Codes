@@ -1,0 +1,30 @@
+1673501553961	Rename package 'com.te.hrms.admin.controller'
+1673501578368	Rename package 'com.te.hrms.admin.dao'
+1673501596233	Rename package 'com.te.hrms.admin.dto'
+1673501608599	Rename package 'com.te.hrms.admin.entity'
+1673501624214	Rename package 'com.te.hrms.admin.exception'
+1673501644363	Rename package 'com.te.hrms.admin.handler'
+1673501662523	Rename package 'com.te.hrms.admin.service'
+1673501675998	Rename package 'com.te.hrms.admin.util'
+1673501689604	Rename package 'com.te.hrms.candidate.controller'
+1673501708685	Rename package 'com.te.hrms.candidate.dao'
+1673501723244	Rename package 'com.te.hrms.candidate.dto'
+1673501737678	Rename package 'com.te.hrms.candidate.entity'
+1673501751814	Rename package 'com.te.hrms.candidate.message'
+1673501766725	Rename package 'com.te.hrms.candidate.service'
+1673501792608	Rename package 'com.te.hrms.feedback.controller'
+1673501806076	Rename package 'com.te.hrms.feedback.dao'
+1673501823154	Rename package 'com.te.hrms.feedback.dto'
+1673501838559	Rename package 'com.te.hrms.feedback.entity'
+1673501852773	Rename package 'com.te.hrms.feedback.service'
+1673501877282	Rename package 'com.te.hrms.interviewrounds.controller'
+1673501890599	Rename package 'com.te.hrms.interviewrounds.dao'
+1673501904494	Rename package 'com.te.hrms.interviewrounds.dto'
+1673501916143	Rename package 'com.te.hrms.interviewrounds.entity'
+1673501932561	Rename package 'com.te.hrms.interviewrounds.service'
+1673502110088	Rename package 'com.te.hrms.exceptionn.admin'
+1673502115876	Copy compilation unit
+1673502140688	Copy compilation unit
+1673502148730	Delete element
+1673502182042	Delete element
+1673502226377	Delete element

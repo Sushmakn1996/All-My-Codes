@@ -1,0 +1,16 @@
+1668572227375	Copy compilation unit
+1668572255856	Delete element
+1668572316981	Rename package 'com.te.product.api'
+1668573679683	Copy compilation unit
+1668573687555	Delete element
+1668576295370	Rename package 'com.te.product.entity'
+1668576326627	Rename package 'com.te.product.product'
+1668580732622	Rename package 'com.te.product.user'
+1668583095527	Rename package 'com.te.product.configuration'
+1668583108817	Rename package 'com.te.product.controller'
+1668583122910	Rename package 'com.te.product.dto'
+1668583138142	Rename package 'com.te.product.items'
+1668583150851	Rename package 'com.te.product.message'
+1668583166211	Rename package 'com.te.product.repo'
+1668583187903	Rename package 'com.te.user.items'
+1668603508523	Rename type 'RoleRepositoryTest'

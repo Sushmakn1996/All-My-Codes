@@ -1,0 +1,17 @@
+
+t	java:S125"<This block of commented-out lines of code should be removed.(ôÊ¯òıÿÿÿÿ8â§ìÜ0H×®RMAJORZ
+CODE_SMELL
+o	java:S125%"<This block of commented-out lines of code should be removed.(Õì©ş8â§ìÜ0HØ®RMAJORZ
+CODE_SMELL
+o	java:S125"<This block of commented-out lines of code should be removed.(ìÔıÖ8¥ä§ìÜ0HÜ®RMAJORZ
+CODE_SMELL
+c
+java:S1481$"*Remove this unused "list2" local variable.(˜º†ûùÿÿÿÿ8â§ìÜ0Hİ®RMINORZ
+CODE_SMELL
+n
+java:S4973'"<Strings and Boxed types should be compared using "equals()".(ÚËÛòÿÿÿÿÿ8«ÌãÑÜ0HÙ®RMAJORZBUG
+o	java:S125"<This block of commented-out lines of code should be removed.(ã¹áÜ8à¶å•Ş0Hé®RMAJORZ
+CODE_SMELL
+f
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8à¶å•Ş0Hë®RMINORZ
+CODE_SMELL

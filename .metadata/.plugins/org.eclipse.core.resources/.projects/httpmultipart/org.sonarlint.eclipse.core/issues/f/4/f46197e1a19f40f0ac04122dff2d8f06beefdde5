@@ -1,0 +1,11 @@
+
+Š
+java:S2226"XRemove this misleading mutable servlet instance field or make it "static" and/or "final"(ÜĞ×õüÿÿÿÿ8£ôëøÒ0Hà’RMAJORZBUG
+ƒ
+java:S19892"LHandle the following exception that could be thrown by "write": IOException.(…ƒ¡8Æø÷ùÒ0Há’RMINORZVULNERABILITY
+
+java:S1989 "bHandle the following exceptions that could be thrown by "getParts": IOException, ServletException.(Õ©£şÿÿÿÿ8ÆÅøÒ0Hâ’RMINORZVULNERABILITY
+Œ
+java:S19895"PHandle the following exception that could be thrown by "getWriter": IOException.(ëÀ İûÿÿÿÿ8÷…¬ĞÒ0Hã’RMINORZVULNERABILITY
+
+java:S1989/"bHandle the following exceptions that could be thrown by "getParts": IOException, ServletException.(Ñı·¯şÿÿÿÿ8Æø÷ùÒ0Hä’RMINORZVULNERABILITY

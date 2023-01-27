@@ -1,0 +1,13 @@
+
+]
+java:S6241"*Set the region explicitly on this builder.(“Šù18ìÑĞ°Ğ0HÄ’RMAJORZ
+CODE_SMELL
+k
+java:S6242"8Set the credentials provider explicitly on this builder.(“Šù18ìÑĞ°Ğ0HÅ’RMAJORZ
+CODE_SMELL
+s
+java:S1118":Add a private constructor to hide the implicit public one.(Ó»şšÿÿÿÿÿ8îÄÌ°Ğ0HÆ’RMAJORZ
+CODE_SMELL
+`
+java:S1602"",Remove useless curly braces around statement(Û¤œÅ8Ã™³Ğ0HÇ’RMINORZ
+CODE_SMELL

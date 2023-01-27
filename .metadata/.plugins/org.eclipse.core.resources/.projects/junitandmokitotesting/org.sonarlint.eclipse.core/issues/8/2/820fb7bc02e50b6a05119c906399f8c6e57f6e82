@@ -1,0 +1,19 @@
+
+\
+java:S26994"-Add at least one assertion to this test case.(©ÊÙïHÌŒRBLOCKERZ
+CODE_SMELL
+O
+java:S5786-"Remove this 'public' modifier.(à…ë“ûÿÿÿÿHÍŒRINFOZ
+CODE_SMELL
+E
+java:S5810%"Remove this 'private' modifier.(®™‡’HÏŒRMAJORZBUG
+J
+java:S57864"Remove this 'public' modifier.(©ÊÙïHÐŒRINFOZ
+CODE_SMELL
+h
+java:S58450"?Change the assertion arguments to not compare dissimilar types.(ÕáÊÜHÒŒRCRITICALZBUG
+I
+java:S5786"Remove this 'public' modifier.(ù•ëHÔŒRINFOZ
+CODE_SMELL
+m
+java:S5845("?Change the assertion arguments to not compare dissimilar types.(ÜÕÚ‡úÿÿÿÿHÖŒRCRITICALZBUG

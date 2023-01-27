@@ -1,0 +1,5 @@
+package com.te.springboot.abstraction;
+
+public interface Bmw {
+
+}

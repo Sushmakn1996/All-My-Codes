@@ -1,0 +1,49 @@
+package com.te.java8.stream;
+
+import java.io.IOException;
+import java.nio.charset.Charset;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
+import java.util.stream.Stream;
+
+public class StreamObjectCreation {
+	
+public static void main(String[] args) throws IOException {
+	
+//From Empty Stream
+	Stream<String> stream = Stream.empty();
+	
+//From Collection
+	List<Integer> list=Arrays.asList(2,3);
+	
+//From Arrays
+	String[] arr = new String[] { "a", "b", "c" };
+	Stream<String> streamOfArrayFull = Arrays.stream(arr);
+	
+//From Stream Builder
+	Stream<String> streamBuilder = Stream.<String>builder().add("a").add("b").add("c").build();
+	
+//From Stream Generate
+	Stream<String> streamGenerated = Stream.generate(() -> "element").limit(10);
+	
+//From Stream Iterate
+	Stream<Integer> streamIterated = Stream.iterate(1, n -> n + 2).limit(5);
+	
+//From Stream of file
+	Path path = Paths.get("C:\\file.txt");
+	Stream<String> streamOfStrings = Files.lines(path);
+	Stream<String> streamWithCharset = Files.lines(path, Charset.forName("UTF-8"));
+	
+	//From Stream of primitives
+	IntStream intStream = IntStream.range(1, 3);
+	LongStream longStream = LongStream.rangeClosed(1, 3);
+	
+}
+
+
+}

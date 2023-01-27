@@ -1,0 +1,5 @@
+package com.te.mock.entity;
+
+public class Movie {
+
+}
